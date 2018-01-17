@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from '../components/button';
 
 class App extends Component {
   state = { value: 0 };
@@ -25,9 +26,9 @@ class App extends Component {
     return (
       <div>
         {this.state.value}
-        <button onClick={this.increment}>+</button>
-        <button onClick={this.decrement}>-</button>
-        <button onClick={this.reset}>reset</button>
+        <Button onClick={this.increment}>+</Button>
+        <Button onClick={this.decrement}>-</Button>
+        <Button onClick={this.reset}>reset</Button>
       </div>
     )
   }
