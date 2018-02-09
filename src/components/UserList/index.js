@@ -9,6 +9,7 @@ const UserList = ({users}) => {
             key={`UserList_${user.id}`}
             avatar={user.avatar_url}
             name={user.login}
+            id={user.id}
         />));
     }
     return (

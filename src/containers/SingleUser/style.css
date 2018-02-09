@@ -1,0 +1,14 @@
+.card-img-top{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.badge-button{
+    display: block;
+    margin: 1em;
+}
+
+.badge{
+    margin-left: 10px;
+}
